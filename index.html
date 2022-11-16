@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Golu Financial News</title>
+		<title>Golu 高路财经</title>
 		<style>
 			html {
 				height: 100%;
@@ -20,6 +20,39 @@
 				background-color: #000;
 				color: #fff;
 			}
+            header{
+                padding-bottom:10px;
+                width:100%;
+                position: fixed;
+                background-color:blue;
+                top:0px;
+                left:0px;
+            }
+            footer{
+                padding-top: 10px;
+                padding-bottom:10px;
+                width:100%;
+                position: fixed;
+                background-color:blue;
+                bottom:0px;
+                left:0px;
+            }
+            nav{
+                color:white;
+                font-size:20px;
+            }
+            a{
+                color: #fff;
+                text-decoration:none;
+            }
+            .main{
+                position: fixed;
+                width: 100%;
+                height: 80%;
+                background-color: green;
+                top:10%;
+                left:0px;
+            }
 			.container {
 				margin: auto;
 				text-align: center;
@@ -31,14 +64,21 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1 style="font-size:30px;">Golu Financial News</h1>
-			<h1 style="font-size:30px;">高路财经新闻</h1>
-			<p style="color:white;font-size:20px;">Web3 | crypto | DAO | new economy
-
-</p>
+            <header>
+                <h1 style="font-size:30px;"><a href="#">Golu 高路财经</a></h1>
+                <nav> 
+                    <a href="#">WEB3</a>   |   
+                    <a href="#">DAO</a>   |   
+                    <a href="#">NFT</a>   |   
+                    <a href="#">DEFI</a>
+                </nav>
+            </header>
+			
 			<p style="color:red;font-size:48px;">即将推出</p>
 			<p style="color:red;font-size:48px;">Coming Soon</p>
-			<p> a <a style="color:red;font-size:20px;" href="#">Star Media Group</a> Company</p>
+            <footer>
+                <p> a <a href="#">Star Media Group</a> Company</p>
+            </footer>
 		</div>
 	</body>
 </html>
